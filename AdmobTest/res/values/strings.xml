@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdmobTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_added_using_xml">Banner added using XML</string>
+    <string name="banner_added_programmatically">Banner added programmatically</string>
+    <string name="banner_listener">Banner Listener</string>
+    <string name="show_interstitial_ad">Show Interstitial ad</string>
+    <string name="is_ad_ready_">Is ad ready?</string>
+    <string name="interstitial_ad">Interstitial ad</string>
+
+</resources>
