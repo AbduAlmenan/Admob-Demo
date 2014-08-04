@@ -16,6 +16,7 @@ Setup
 5. Add this activity in AndroidManifest.xml: <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
 Add banners programmatically
+
 See code example in BannerProgActivity.java
 
 1. Create AdView object.
@@ -26,6 +27,7 @@ See code example in BannerProgActivity.java
 6. Add AdView.onPause(), AdView.resume() and AdView.destroy().
 
 Add banners using XML
+
 See code example in BannerXmlActivity.java
 
 1. Add xmlns:ads="http://schemas.android.com/apk/res-auto" to parent layout.
@@ -33,9 +35,11 @@ See code example in BannerXmlActivity.java
 3. Create AdRequest in the Activity.
 
 Demographics
+
 1. You can add demographic information when creating the AdRequest: AdRequest.Builder().setGender(int gender).
 
 AdListener 
+
 Use an AdListener to follow up different events.
 See code example in BannerAdListenerActivity.java.
 
@@ -44,6 +48,7 @@ See code example in BannerAdListenerActivity.java.
 
 
 Interstitial ads
+
 See code example in InterstitialActivity.java
 
 1. Create a new AdUnitId for Interstitial ads.
@@ -52,4 +57,5 @@ See code example in InterstitialActivity.java
 4. You need to request a new interstitial ad every time after you have displayed it.
 
 Smart Banners
+
 You can use smart banners (banners that will adjust to the screen size automatically). You need to specify the ad size as SMART_BANNER.
